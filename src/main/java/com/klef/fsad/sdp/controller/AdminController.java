@@ -23,7 +23,7 @@ public class AdminController
 	public String index() {
 		return "Full Stack SDP Project";
 	}
-	@PostMapping("/verifyadminlogin")
+	@PostMapping("/login")
 	public ResponseEntity<?> checkadminlogin(@RequestBody Admin admin)
 	{
 		try
